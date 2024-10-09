@@ -1,0 +1,223 @@
+.article-list {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f4f8; /* Light blue background */
+}
+
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.article-card {
+  background-color: #fff9e6; /* Light yellow background */
+  border: 1px solid #e6e8e6; /* Light green border */
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.article-card h3 {
+  color: #4a6fa5; /* Darker blue for title */
+  margin-bottom: 10px;
+}
+
+.article-card p {
+  color: #6c757d; /* Grayish blue for author */
+}
+
+.delete-button {
+  background-color: #a5c1e9; /* Light blue button */
+  color: #4a6fa5; /* Darker blue text */
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #4a6fa5; /* Darker blue on hover */
+  color: #fff;
+}
+
+.create-article-form {
+  background-color: #e6e8e6; /* Light green background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.create-article-form:hover {
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.create-article-form input,
+.create-article-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #a5c1e9; /* Light blue border */
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.create-article-form input:focus,
+.create-article-form textarea:focus {
+  outline: none;
+  border-color: #4a6fa5; /* Darker blue on focus */
+  box-shadow: 0 0 0 2px rgba(74, 111, 165, 0.2);
+}
+
+.create-article-form textarea {
+  min-height: 150px;
+  resize: vertical;
+}
+
+.create-article-form button {
+  background-color: #4a6fa5; /* Darker blue button */
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.create-article-form button:hover {
+  background-color: #3a5a8c; /* Even darker blue on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.create-article-form button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.toggle-create-button {
+  background-color: #a5c1e9; /* Light blue button */
+  color: #4a6fa5; /* Darker blue text */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.toggle-create-button:hover {
+  background-color: #4a6fa5; /* Darker blue on hover */
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.toggle-create-button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 1200px) {
+  .article-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .article-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .article-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Add these styles to your existing ArticleList.css file */
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-input {
+  width: 300px;
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+}
+
+.filter-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.delete-selected-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.delete-selected-button:hover {
+  background-color: #ff3333;
+}
+
+.article-checkbox {
+  margin-right: 10px;
+}
+
+.article-card {
+  display: flex;
+  align-items: center;
+}
+
+.article-card a {
+  flex-grow: 1;
+  text-decoration: none;
+  color: inherit;
+}
+
+.copy-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.copy-button:hover {
+  background-color: #45a049;
+}

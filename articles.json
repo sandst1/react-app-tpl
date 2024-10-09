@@ -1,0 +1,52 @@
+{
+  "articles": [
+    {
+      "id": 4,
+      "title": "Exploring the Depths of the Ocean",
+      "author": "Jacques Cousteau",
+      "content": "The ocean depths hold countless mysteries waiting to be discovered. From bioluminescent creatures to undiscovered species, the underwater world continues to fascinate scientists and explorers alike."
+    },
+    {
+      "id": 5,
+      "title": "The Impact of Social Media on Society",
+      "author": "Mark Zuckerberg",
+      "content": "Social media has transformed the way we communicate, share information, and perceive the world around us. While it connects us globally, it also raises concerns about privacy and mental health."
+    },
+    {
+      "id": 7,
+      "title": "The Rise of Plant-Based Diets",
+      "author": "Jamie Oliver",
+      "content": "Plant-based diets are gaining popularity due to their potential health benefits and reduced environmental impact. Discover delicious and nutritious ways to incorporate more plant-based meals into your diet."
+    },
+    {
+      "id": 8,
+      "title": "Space Exploration: The Next Frontier",
+      "author": "Neil deGrasse Tyson",
+      "content": "As we set our sights on Mars and beyond, space exploration continues to push the boundaries of human achievement. The quest to understand our universe drives technological innovation and inspires future generations."
+    },
+    {
+      "id": 10,
+      "title": "Cybersecurity in the Digital Age",
+      "author": "Edward Snowden",
+      "content": "As our lives become increasingly digital, protecting our personal information and sensitive data is more important than ever. Explore the latest trends and best practices in cybersecurity."
+    },
+    {
+      "title": "Forrest Gump",
+      "author": "I played badminton",
+      "content": "Minton was bad.",
+      "id": 11
+    },
+    {
+      "title": "Copy of The Impact of Social Media on Society",
+      "author": "Mark Zuckerberg",
+      "content": "Social media has transformed the way we communicate, share information, and perceive the world around us. While it connects us globally, it also raises concerns about privacy and mental health.",
+      "id": 12
+    },
+    {
+      "title": "Copy of The Impact of Social Media on Society",
+      "author": "Mark Zuckerberg",
+      "content": "Social media has transformed the way we communicate, share information, and perceive the world around us. While it connects us globally, it also raises concerns about privacy and mental health.",
+      "id": 13
+    }
+  ]
+}
